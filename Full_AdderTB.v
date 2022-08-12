@@ -5,7 +5,7 @@ reg [3:0]a,b;
 reg c;
 wire [3:0]s;
 wire cout;
-RCA rcl (s, cout, a, b, c) ;
+RCA Full_Adder (s, cout, a, b, c) ;
 initial
 begin
 #10 a=4; b=1; c=0;
