@@ -10,7 +10,7 @@ and a2 (w2, w1, c) ;
 or rl (carry, w2, w3) ;
 endmodule
 
-module RCA (s, cout, a, b, c) ;
+module Full_Adder (s, cout, a, b, c) ;
 input [3:0]a, b;
 input c:
 output [3:0]s;
